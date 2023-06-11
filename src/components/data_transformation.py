@@ -20,8 +20,8 @@ class DataTransformationConfig:
                                             
 class DataTransformation:
     def __init__(self):
-        self.data_transformation_config()
-
+        self.data_transformation_config=DataTransformationConfig()
+        
         def get_data_transformation_object(self):
             try:
                 logging.info('Data Transformation initiated')
