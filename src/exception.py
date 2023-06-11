@@ -26,5 +26,5 @@ class CustomException(Exception):
         try:
             a=1/0
         except Exception as e:
-            logging.info('Dicision by zero') 
+            logging.info('Division by zero') 
             raise CustomException(e,sys)
